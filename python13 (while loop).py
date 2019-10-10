@@ -14,7 +14,7 @@ while counter < 4 :
     turtle.right(90)
     counter= counter+1
 
-# challange 7
+# challange
 import turtle
 color=input("what colour of pen you want to use?\n")
 lenth=int(input("what will the lenth of your line?\n"))

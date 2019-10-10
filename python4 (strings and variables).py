@@ -47,7 +47,7 @@ print(second)
 a=1
 b=2
 
-a,b=b,a  # magik line of code.
+a,b=b,a  # magic line of code.
 
 print(a)
 print(b)

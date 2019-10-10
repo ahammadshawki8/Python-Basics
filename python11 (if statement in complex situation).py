@@ -142,7 +142,6 @@ else:
     else:
         print("a is greater than b")
 
-# extra credit 1
 # making bmi calculator using if statement.
 name =input("enter your name: ").capitalize()
 height_m =float(input("enter your height in metre: "))

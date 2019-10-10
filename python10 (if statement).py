@@ -82,7 +82,7 @@ print(a is b)# true
 #   any empty sequences. for example-"",(),[]
 #   any empty mapping. for example-{}
 
-# challange 5
+# challange
 # calculate shipping charges for a shoper.
 
 ttp=input("What is the amount for your total purchase?\n")

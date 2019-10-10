@@ -38,8 +38,8 @@ with open(filename, accessmode) as myfile:
 # different files with their extensions
 
 # text document             -   .txt
-# exel (comma separated)    -   .csv
-# exel                      -   .xlxs
+# excel (comma separated)   -   .csv
+# excel                     -   .xlxs
 # command prompt            -   .cmd
 # ms word                   -   .docx
 # photo                     -   .jpg
@@ -49,6 +49,6 @@ with open(filename, accessmode) as myfile:
 # powerpoint                -   .pptx
 # zip                       -   .zip
 # pdf file                  -   .pdf
-# subtitle                  -   .str
+# subtitle                  -   .srt
 # torrent file              -   .torrent
 # application               -   .exe

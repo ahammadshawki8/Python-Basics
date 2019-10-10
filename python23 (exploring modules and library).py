@@ -1,6 +1,9 @@
 # module 24
 # importing module and exploring standerd library.
 
+# we can find all the modules and library we can use in python in this link-
+    #https://docs.python.org/3/library/index.html
+
 # to import a module, we have to-
 import helpers
 courses=["math", "physics", "comsci", "ict", "english"]

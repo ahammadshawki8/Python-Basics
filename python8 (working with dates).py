@@ -46,7 +46,6 @@ now=datetime.date.today()
 difference=nextbirthday-now
 print(difference.days)# here we write down days to make the output how many "days" are left.
 
-#extra credit
 # how to find a date's day of the week?
 import datetime
 date=datetime.datetime.strptime("28/12/2004","%d/%m/%Y").date()

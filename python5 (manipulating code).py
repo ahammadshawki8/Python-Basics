@@ -28,13 +28,3 @@ print(name+" lives in "+country+".")
 # so how do programmers find them when they need them?-
 # 1.intellisense, 2.documentation, 3.internet searches.
 
-# Challange 2
-# solution-
-name=input("what is your name?\n")
-age=input("how old are you?\n")
-place=input("where do you live in?\n")
-yourclass=input("which class do you read in?\n")
-pastime1=input("what is your favourite pastime?\n")
-pastime2=input("write down your another favourite pastime.\n") 
-
-print("I am "+name.capitalize()+"."+" I am "+age+" years old."+" My present address is "+place.capitalize()+"."+" I am a student of class "+yourclass+"."+" I like "+pastime1+" and "+pastime2+" during my leisure time.")

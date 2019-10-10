@@ -202,7 +202,7 @@ cities_str=", ".join(cities)
 cities_list=cities_str.split(", ")
 print(cities_list)
 
-# challange 9
+# challange
 print()
 print()
 guest=[]

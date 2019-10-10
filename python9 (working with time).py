@@ -18,10 +18,3 @@ print(currenttime.strftime("%H:%M"))
 # %M means minutes
 # %S means seconds
 
-# Challange 4
-import datetime
-last=input("what is yours projects last submission date? mm/dd/yyyy\n")
-lastdate=datetime.datetime.strptime(last,"%m/%d/%Y").date()
-currentdate=datetime.date.today()
-difference=lastdate-currentdate
-print("You have "+str(difference.days)+" days in your hand to submit your project.")
