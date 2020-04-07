@@ -18,7 +18,7 @@ print(answer)
 c="Shawki"
 print(type(c))
 
-# challange-
+# challange 3-
 # making a loan calculator-
 l=input("Please enter your cost of loan.\n")
 i=input("Please enter the interest rate of your loan.\n")

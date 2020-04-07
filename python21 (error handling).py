@@ -43,7 +43,14 @@ except:
 #the code in the except only runs if there in an error generated when executing the code in try.
 
 # we can use raise command to raise our own error.
-
+first=input("Enter a number: ")
+second=input("Enter another number: ")
+try:
+    division=float(first)/float(second)
+    print(division)
+except:
+    print("I am sorry. Something went wrong.")
+    raise
 
 #if we want to know what the error was,how do we know what the errors will be raised.
 #we can test it ourselves by using the function sys.exc_info()
@@ -63,7 +70,7 @@ except:
 finally:
     print("I will always run")
 print("This massage will also run")
-# the code in finally will always run if there in an error or not.
+# the code in finally will always run whether there in an error or not.
 
 # if we know exactly what error is occuring, we can specify how to handle that exact error.
 first=float(input("enter first number: "))
@@ -147,7 +154,7 @@ if not error:
 # sometimes writing the code to handle the errors takes more time than writing the original program.
 # whether it is necessary to handle EVERY error depend on how the code will be used.
 # if we are writing a system for air traffic control we would want very through error handling.
-# if we are writing a fun little app to tweet us when our plants needs water, we wouldn't worry about it too much.
+# if we are writing a fun little app to remind us when our plants needs water, we wouldn't worry about it too much.
 
 # challange 12 
 import sys

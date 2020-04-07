@@ -14,7 +14,7 @@ while counter < 4 :
     turtle.right(90)
     counter= counter+1
 
-# challange
+# challange 7
 import turtle
 color=input("what colour of pen you want to use?\n")
 lenth=int(input("what will the lenth of your line?\n"))
@@ -71,7 +71,7 @@ print(total)
 given_list=[9,7,7,5,4,4,3,1,0,-1,-2,-3,-5,-6,-6]
 total=0
 i=0
-while True:# true means the while loop will always run because the statement ins true.
+while True:# true means the while loop will always run because the statement is true.
     total += given_list[i]
     i += 1
     if given_list[i] <=0:

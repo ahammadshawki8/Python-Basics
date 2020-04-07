@@ -21,7 +21,7 @@ with open(name,"r") as bubble:
     print(filecontentsInALine)  
 # everytime we use this method we print the next line of a file.
     print(bubble.readline())
-# this prints pretty awkward.it gives extra newline after each line.
+# this prints pretty awkward. it gives extra newline after each line.
 # its a default system.
 # we can change it through changing the end arguement.
     print(bubble.readline(),end="")

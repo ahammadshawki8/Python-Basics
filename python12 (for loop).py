@@ -78,7 +78,8 @@ for steps in ["red","blue","green","black"]:
         print(steps)
 
 
-# Challange
+# Challange 6
+
 import turtle
 print("Today we are going to draw an object using turtle librery in python.")
 print("Tell us your opinion")

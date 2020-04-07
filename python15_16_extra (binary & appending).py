@@ -1,8 +1,8 @@
 # extra
 
 # binary file
-# birary file means photos videos etc.
-# it is calculated in bytes
+# birary file means photos, videos etc.
+# it is calculated in bytes.
 # the mode of binary file is "b"
 
 # copying a binary file
@@ -49,6 +49,6 @@ with open(filename, accessmode) as myfile:
 # powerpoint                -   .pptx
 # zip                       -   .zip
 # pdf file                  -   .pdf
-# subtitle                  -   .srt
+# subtitle                  -   .str
 # torrent file              -   .torrent
 # application               -   .exe

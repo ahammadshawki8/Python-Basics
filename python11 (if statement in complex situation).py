@@ -9,6 +9,10 @@ elif country=="GERMANY":# elif allows us to check for different values. It means
     print("Gutan Tag!")
 elif country=="FRANCE":
     print("Bonjour!")
+elif country=="MEXICO":
+    print("Ola Amigo!")
+elif country=="INDIA":
+    print("Namaste!")
 else:
     print("Hey!")
 
@@ -82,7 +86,7 @@ else:
     print("I appreciate your choice.")
 
 # Combining and/or in a single statement.
-# "and" statement will run fast between "and"/"or".
+# "and" statement will run first between "and"/"or".
 # we need to put () to separate conditions.
 
 favs=input("What is your favourite sport?\n").lower()
@@ -93,7 +97,6 @@ else:
     print("Worst choice. Get out from my code.")
 
 # we can do the same operation by using flag(boolean variables)
-
 football=False
 team=False
 favs=input("What is your favourite sport?\n").lower()
@@ -142,6 +145,7 @@ else:
     else:
         print("a is greater than b")
 
+# extra credit 1
 # making bmi calculator using if statement.
 name =input("enter your name: ").capitalize()
 height_m =float(input("enter your height in metre: "))

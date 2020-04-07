@@ -26,7 +26,7 @@ print(value_3)
 print(random.randrange(1,7))
 # the difference between randint and randrange is if we put(1,6) as a arguement of randint we can get 6.
 # but if we put(1,6) as a arguement of randrange we can't get any 6 
-# because it is a range and it means from 1 to 6 but not including 6.
+# because it is a range and it means from 1 to 6 but not including 6 
 
 # choice methods picks a random value from a list of values.
 greetings=["hello","hi","hey","howdy","hola"]

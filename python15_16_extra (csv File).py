@@ -1,7 +1,7 @@
 # what is csv?
 # a common format for storing information in a file in Comma Seperated(csv)
 # a csv file contains data seperated by a character, usually a comma.
-# each row represents one record of data..
+# each row represents one record of data.
 # it is sometimes called a Character Seperated Values file because
 # the seperated character could be a different character such as a semi-colon ";" 
 name="NameWithAge.csv"

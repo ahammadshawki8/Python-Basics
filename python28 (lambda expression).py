@@ -32,7 +32,6 @@ print(f(2))
 
 # we can also use lambda as a arguement in other functions.
 # sorting tuples using lambda.
-
 list1=[("eggs",1.09),("mango",0.44),("banana",3.89),("milk",8.90)]
 list1.sort(key=lambda x:x[0])#here in the expression,x[0] means we want to sort them in the order of keys 
 print(list1)
@@ -76,7 +75,7 @@ print("445".isdigit())
 
 # what if we want to know if it is a number or not?
 # we can use lamdas
-isnumber=lambda q:q.replace(".","",1).isdigit()# heree the third arguement indicates that the replace command will only executes one time.
+isnumber=lambda q:q.replace(".","",1).isdigit()# here the third arguement indicates that the replace command will only executes one time.
 print(isnumber("233.45"))
 #but thats not good enough it returns false if it is a negative number.
 print(isnumber("-233.45"))

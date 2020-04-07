@@ -41,7 +41,7 @@ print(over_two(n))
 # method 2
 # using filter method
 print(list(filter(lambda x:x>2, n)))
-# we need to use lambda expression when we create filter function.
+# we must use lambda expression when we create filter function.
 # here we need to make it list too. 
 
 # reduce functions
@@ -61,7 +61,8 @@ def multiply(n):
 print(multiply(n))
 
 # method 2
-
 # using reduce function
-print((reduce(lambda x,y:x*y ,n))
+print(reduce(lambda x,y:x*y ,n))
 # as it doesn't return list, we don't need to convert it into list.
+
+# I THINK PYTHON HAS CANCELED REDUCE FUNCTION.

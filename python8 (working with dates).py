@@ -1,8 +1,8 @@
 # module 8
 # Working with dates
 
-import datetime # the import statement gives us access to the functionality of datetime class. It is actually means to avialable any class.
-                # datetime is a class. there are different types of class in python.
+import datetime # the import statement gives us access to the functionality of datetime module. It is actually means to avialable any module.
+                # datetime is a module. there are different types of module in python.
 now = datetime.date.today() # today is a function that returns todays date.
 print("todays date is "+str(now))
 
@@ -16,7 +16,7 @@ print(datetime.date.strftime(now,"%a %d %b, %Y"))
 
 # exp-
 print(now.strftime("please attend our event at %A, %B %d in the year of %Y."))# we don't need to write str function if we are using strftime function.
-# %b is the month abbreviation.
+# %b is the month abbreviated.
 # %B is the full month name.
 # %m is month in number.
 # %y is two digit year.
@@ -27,14 +27,14 @@ print(now.strftime("please attend our event at %A, %B %d in the year of %Y."))# 
 # %D is the full date in numbers.
 # FOR MORE OPTIONS VISIT "http://strftime.org/" 
 
-# sometimes we have to use different letters, symbles and numbers in our code which is noy belongs to English.
+# sometimes we have to use different letters, symbles and numbers in our code which is not belongs to English.
 # The programmers speak that is named localization.
 # it would take more time and code to access those letters or symbles.
 # we can find more information in this site-"http://babel.pocoo.org/" 
 
 import datetime
 userinput=input("what is your birthday? (mm/dd/yyyy)\n")
-birth=datetime.datetime.strptime(userinput,"%m/%d/%Y").date() # the strptime allows you to convert a string into a date format of python.
+birth=datetime.datetime.strptime(userinput,"%m/%d/%Y").date() # the strptime allows you to convert a string into the date format of python.
 print(birth)
 # strptime means str python time.
 # There is two datetime in the code. One is for datetime module, another is for datetime class.
@@ -46,6 +46,7 @@ now=datetime.date.today()
 difference=nextbirthday-now
 print(difference.days)# here we write down days to make the output how many "days" are left.
 
+# extra credit
 # how to find a date's day of the week?
 import datetime
 date=datetime.datetime.strptime("28/12/2004","%d/%m/%Y").date()

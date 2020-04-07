@@ -14,7 +14,7 @@
 # we should create one function which can perform only one action(or 2) at a time.
 
 # how do we create a function? 
-#1. use the kyword def.(short form of define)
+#1. use the keyword def.(short form of define)
 #2. give our function a name. we may also have parameters name.
 #3. write the code in the body of the function.
 #4. use the return keyword to exit the from the function.
@@ -44,7 +44,7 @@ main()
 # to create a function that accepts data we use paramaters.
 # a parameters is a piece of data passed into a function.
 # inside a function, parameters behave like a variable.
-# we can use parameters both for integer value or sting value.
+# we can use parameters both for integer value or string value.
 
 # integer
 def function3(x):
@@ -139,8 +139,8 @@ f=helpers.function13(4)
 print(f)
 
 # recursive function
-# function recursion means  calling a function in its own defination.
-# ercursive function is very popular because we can solve any problem faster by using it.
+# function recursion means calling a function in its own defination.
+# recursive function is very popular because we can solve any problem faster by using it.
 def factorial(n):
     if n==1:
         return 1
@@ -156,6 +156,17 @@ def factorial1(n):
         return result
 print(factorial1(5))
 
+#Generator Expression(yeilding data)
+nums=[1,2,3,4,5,6,7,8,9]
+def gen_func(nums):
+    for n in nums:
+        yield n**2 
+my_gen=gen_func(nums)
+# yeild function dont return values immidiately.
+# it continues till the end of the loop and store all values in a list.
+# Finally, return the list.
+print(list(my_gen))
+
 # challange 11
 filename_1=input("enter your filename: ")
 writeInput_1=input("enter what you want to input in this file: ")
@@ -166,7 +177,7 @@ def makingFile(filename,writeInput):
     return
 #makingFile(filename_1,writeInput_1)
 
-# Extra cradit1
+# Extra credit1
 # making bmi calculater using function
 name1="Shawki"
 height_m1=1.75
@@ -216,7 +227,7 @@ daysRemaining=formatDate(userDate)-currentDate
 print("There are "+ str(daysRemaining) +" left for your birthday")
 
 # extra credit 4
-# making a function which can display febonacci series.
+# making a function which can display febonacci series(recursive)
 def febonacci(n):
         if n==1 or n==2:
                 return 1
@@ -319,10 +330,7 @@ weight=int(input("what is your weight? -->"))
 
 def ft2cm(height):
     import math
-    a=(math.floor(height)*12)
-    b=(height-(a/12))*12
-    c=a+b
-    height_cm=c*2.54
+    height_cm=height*12*2.54
     return height_cm
 def bmr_calculater(name,weight,height_cm,sex,age):
     if sex=="girl":
@@ -335,3 +343,38 @@ def bmr_calculater(name,weight,height_cm,sex,age):
 height_cm=ft2cm(height)
 print("\n")
 print(bmr_calculater(name,weight,height_cm,sex,age))
+
+# extra credit 9
+# displaying prime numbers
+def isprime(x):
+    p=0
+    for n in range (2,x):
+        if x%n==0:
+            p +=1
+    if p>=1:
+        return False
+    else:
+        return True
+
+n=int(input("how many primes you want to print?\n-->"))
+primesList=[]
+f=2
+while len(primesList)!=n:
+    for x in range (f,f*2):
+        if isprime(x):
+            primesList.append(x)
+            if len(primesList) == n:
+                break
+    f *=2 
+for i in primesList:
+    print(i) 
+
+# extra credit 10
+# lcm calculator
+def lcm_calc(a,b,c,d):
+    abcd=a*b*c*d
+    z=abcd+1
+    initial=[x for x in range(1,z)]
+    lcm_list=[x for x in initial if x%a==0 and x%b==0 and x%c==0 and x%d==0]
+    lcm=min(lcm_list)
+    return lcm

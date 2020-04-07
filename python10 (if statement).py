@@ -52,8 +52,7 @@ if freetoaster:
     print("enjoy your toaster!")
 
 # what is the difference between is and == ?
-# is means we are checking if both variables have same id or not.
-# id means the number of the objects in memory.
+# is means we are checking if both variables have same id or not. id is the number of the objects in memory.
 # == means we are checking if both variables contain same values or not.
 a=[1,2,3]
 b=[1,2,3]
@@ -82,7 +81,7 @@ print(a is b)# true
 #   any empty sequences. for example-"",(),[]
 #   any empty mapping. for example-{}
 
-# challange
+# challange 5
 # calculate shipping charges for a shoper.
 
 ttp=input("What is the amount for your total purchase?\n")

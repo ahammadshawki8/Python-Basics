@@ -69,13 +69,13 @@ print(fun[3])
 # second method-
 # delete the first item in the list
 del fun[0] # it is delete command
-print(fun[0])
+print(fun[0]) # delete command takes the index as an arguement.
 
 # third method
 # deleting the last item of the list using pop method.
 fun.pop() # pop deletes the last item of the list.
 print(fun[-1])
-# we can also specify which item we want to delete using pop method.
+# we can also specify the item with index which we want to delete using pop method.
 fun.pop(2)
 print(fun[1])
 # pop method returns the valus that it removed.
@@ -139,13 +139,14 @@ players=["ronaldo","mbappe","bale","ramos","marcelo"]
 players.sort()
 for step in players:
     print(step)
-# we can also sort our list in reverse alphabetical order by adding reverse argument in sort method.
+# we can also sort our list in reverse alphabetical order(reversely sorted) by adding reverse argument in sort method.
 players=["ronaldo","mbappe","bale","ramos","marcelo"]
 players.sort(reverse=True)
 for step in players:
     print(step) 
 
 # we can reverse our list using reverse method. 
+# It doesn't sort our list. It only reverse it.
 cities=["dhaka","madrid","turin","paris"]
 cities.reverse()
 print(cities)
@@ -160,11 +161,15 @@ print(cities_2)
 cities=["dhaka","madrid","turin","paris"]
 cities_2=sorted(cities,reverse=True)
 print(cities_2)
+# we can reverse our list without changing it using reversed method. 
+cities=["dhaka","madrid","turin","paris"]
+cities_2=list(reversed(cities))# here we have to make it list because reversed method dont give us any list. it gives a location.
+print(cities_2)
 
 # how to sort accending in order to their absolute value?
 # we need to and another argument which is the key argument.
 ggg=[-1,-3,-7,0,1,3,2,4,5,6]
-ggg1=sorted(ggg,key=abs)# we dont give any bracket next to abs function.otherwise,it will show us an error.
+ggg1=sorted(ggg,key=abs)# we dont give any bracket next to abs function. otherwise,it will show us an error.
 print (ggg1)
 
 # swapping the first value of the list with the last value
@@ -202,7 +207,7 @@ cities_str=", ".join(cities)
 cities_list=cities_str.split(", ")
 print(cities_list)
 
-# challange
+# challange 9
 print()
 print()
 guest=[]
@@ -228,7 +233,7 @@ for x in a:
     c.append(2*x) 
 print(c)   
 
-# we can do the same thing by using list comorehension in python.
+# we can do the same thing by using list comprehension in python.
 d=[2*x for x in a]
 print(d)
 

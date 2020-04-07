@@ -14,8 +14,7 @@
 # the file will be created in the same folder as your program.
 
 # if we aren't sure what directory our project is using, we can right click
-# on the tab for our code window and select poen containing folder to see the
-# folder in file explorer.
+# on the tab for our code window and select poen containing folder to see the folder in file explorer.
 
 # what is the access mode?
 #= the access mode specifies what we will do with the file after we open it.
@@ -94,4 +93,3 @@ data= input("Please enter file info: ")
 with open(filename, accessmode) as myfile:
     myfile.write(data)
 print("File written successfully.")
-

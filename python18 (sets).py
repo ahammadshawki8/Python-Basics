@@ -63,15 +63,16 @@ s4= s1.intersection(s2,s3)
 s4_new=s1 & s2 & s3
 print(s4)
 print(s4_new)
-# differences of sets
-s5= s1.difference(s2,s3)
-print(s5)
 
 # union of sets.
-s6=s1.union(s2,s3)
-s6_new=s1|s2|s3
+s5=s1.union(s2,s3)
+s5_new=s1|s2|s3
+print(s5)
+print(s5_new)
+
+# differences of sets
+s6= s1.difference(s2,s3)
 print(s6)
-print(s6_new)
 
 # symmetric differences of sets
 # symmetric differences contains all the differences values in both sets.
@@ -89,6 +90,6 @@ for x in c:
     total += x
 print(total)
 
-#or(dynamic code)
+#or(easiest method)
 b=[1,1,1,3,4,5,7,7,5,8,90]
-print(sum(list(set(b)))) 
+print(sum(set(b))) 

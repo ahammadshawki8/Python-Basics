@@ -5,7 +5,7 @@
 # first method-
 d={}
 #second method-
-#  d=dict()
+h=dict()
 # this are the example of an empty dictionary.
 
 # how to open a dictionary with key-value pairs?
@@ -63,7 +63,7 @@ for key, value in d.items():
 # here key, value is a variable we can name it anything we want.
 
 # if we print a key that is not in the dictionary, python will give us an error.
-# but what if we want to not get an error?
+# but what if we dont want to get an error?
 # we can use get method instead of square brakets[].
 print(d.get("Shawki"))
 print(d.get("hasnine"))
@@ -81,4 +81,3 @@ print(student)
 print(name)
 # by using pop method, the key-value pair will be deleted from the dictionary.
 # but if we write name = before pop method, the value will be saved as name variable.
-
