@@ -81,6 +81,21 @@ print(a is b)# true
 #   any empty sequences. for example-"",(),[]
 #   any empty mapping. for example-{}
 
+# turnery operator
+# we can use if else statement when we are initializing a variable. it is called teunery operator.
+# this is pretty much like lambda function.
+a=101
+b=200 if a==100 else 300
+print(b)
+
+# we can allso use else statement with loop.
+# we dont have to use if statement before.
+for i in range(5):
+    print(i)
+else:
+    print("Done")
+# this else code will execute after our looping get stopped.
+
 # challange 5
 # calculate shipping charges for a shoper.
 

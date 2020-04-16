@@ -5,6 +5,22 @@
 # they are called errors.
 
 # there many types of errors .
+# errors            description
+# exception         base class of every exception
+# StopIteration     next() function could not point any value of an Iterator.
+# ArithmaticError   base class of every numeric operation exception  
+# OverflowError     when a numeric datatype reach their maximum point and could not pass it.
+# ZeroDivisionError division by zero
+# ImportError       failed to import any module
+# IndexError
+# KeyError          when python cant find index as needed from a sequence type object
+# NameError         when python could not find the certain named identifier in local and global scope
+# IOError           failed to complete any input or output type command
+#                   exp. failed to open a file
+# SyntexError
+# IdentationError   wrong coding 
+# RuntimeError      when any exception occured which doesnt from any certain catagory errors
+# LogicError        logically mismatch with the real world    
 
 #1.Syntax errors
 # syntax errors are errors that a develop tool can detect.
@@ -51,6 +67,16 @@ try:
 except:
     print("I am sorry. Something went wrong.")
     raise
+# we can also name our own raise error with nameerror.
+first=input("Enter a number: ")
+second=input("Enter another number: ")
+try:
+    division=float(first)/float(second)
+    print(division)
+except:
+    print("I am sorry. Something went wrong.")
+    raise NameError("Just Kidding")
+# we can raise any other error if we want.
 
 #if we want to know what the error was,how do we know what the errors will be raised.
 #we can test it ourselves by using the function sys.exc_info()
@@ -155,6 +181,28 @@ if not error:
 # whether it is necessary to handle EVERY error depend on how the code will be used.
 # if we are writing a system for air traffic control we would want very through error handling.
 # if we are writing a fun little app to remind us when our plants needs water, we wouldn't worry about it too much.
+
+# assertation
+# we can enable assertation and sanity-check for testing our program.
+# sanity-check means check the statement very fast and examine the truthfulness of the statement.
+# it is much like if statement.
+
+# when python get any assertation, it calculates quick and except that the statements will be true.
+# but if they become false, python print assertationError.
+
+# we can do assertation with assert keyword.
+assert 4==4
+print("I will run")
+assert 1>2
+print("I wont run") 
+# lets see a real-world example of assertation
+def kelvin2fahrenheit(temprature):
+    assert (temprature>=0),"colder then absolute zero!"
+    return ((temprature-273.15)*1.8)+32
+# here we can even set a message for users.
+# when the got an assertation error, they can see the message and can know why this is happening.
+# like other exception, we can handle this exception with try & except too. 
+
 
 # challange 12 
 import sys

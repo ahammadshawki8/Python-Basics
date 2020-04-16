@@ -38,6 +38,12 @@ student.update({"name":"as8", "age":"15", "phone":"444-4444"})
 print(student)
 # if we update a value which is not exits in the dictionary, it will automatically added into the dictionary.
 
+# merging two dictionaries.
+dic1={"a":1,"b":2}
+dic2={"c":3,"d":4}
+merge_dic={**dic1,**dic2}
+print(merge_dic)
+
 # the values can be any time.
 # but the keys can only be certain type.
 # keys are commonly strings and number.

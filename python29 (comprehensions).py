@@ -43,8 +43,8 @@ print(mylist)
 
 
 # dictionary comprehension.
-# but before that we need to know what zip function does?
-# zip function match the items of multiple lists one to one and returns them in tuples.
+# but before that we need to know what zip() function does?
+# zip() function match the items of multiple lists one to one and returns them in tuples.
 # it means index 0 item in list 1, will be matched up with index 0 intem of list 2 and so on.
 names=["tony","peter","wade","bruce"]
 heroes=["iron man","spider man","deadpool","batman"]

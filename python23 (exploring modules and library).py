@@ -1,7 +1,12 @@
 # module 24
 # importing module and exploring standerd library.
 
-# we can find all the modules and library we can use in python in this link-
+# module can be of 3 typres.
+# first one is standerd libraries. they are default built in modules of python.
+# second one is third party libraries. Very good developers make this libraries for a certain use.
+# third is own module. right now, the file we are working on, is one kind of module of our own.
+
+# we can find all the modules and standerd libraries which we can use in python in this link-
     #https://docs.python.org/3/library/index.html
 # to import a module, we have to-
 import helpers

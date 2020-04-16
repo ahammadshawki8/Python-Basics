@@ -1,7 +1,8 @@
 # module 7
 # asking user to input number 
 
-# there are functions to convert from one datatype to another-
+# there are functions to convert from one datatype to another.
+# they are called "casting datatypes" or "datatype conversion"-
 # int(value)       converts to an integreter.
 # long(value)      converts to a long integreter.
 # float(value)     converts to a floating number.  (i.e.  a number that can hold decimal places)

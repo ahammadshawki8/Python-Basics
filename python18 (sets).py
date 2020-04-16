@@ -72,12 +72,16 @@ print(s5_new)
 
 # differences of sets
 s6= s1.difference(s2,s3)
+s6_new=(s1-s2)-s3
 print(s6)
+print(s6_new)
 
 # symmetric differences of sets
 # symmetric differences contains all the differences values in both sets.
 s7=s1.symmetric_difference(s2)
+s7_new=s1^s2
 print(s7)
+print(s7_new)
 
 # extra credit 1
 # sum of unique items

@@ -207,6 +207,11 @@ cities_str=", ".join(cities)
 cities_list=cities_str.split(", ")
 print(cities_list)
 
+# we can even do mathematical operations with list.
+a=[1,2,3]
+print(a+[4,5,6])# this is pretty much like extend() method.
+print(a*3)
+
 # challange 9
 print()
 print()

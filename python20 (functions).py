@@ -46,6 +46,10 @@ main()
 # inside a function, parameters behave like a variable.
 # we can use parameters both for integer value or string value.
 
+# differnce between parameter and arguement
+# when we define variables for accepting  when defining a function is called a perameter.
+# when we insert values for parameters when calling a function is called an arguement.
+
 # integer
 def function3(x):
     return x*2
@@ -167,6 +171,32 @@ my_gen=gen_func(nums)
 # Finally, return the list.
 print(list(my_gen))
 
+# using documentation in function.
+# we can use documentation inside our function and print the documentation using __doc__ attribute.
+# usually, programmer use documentation for writting information about the function or what that code is doing.
+def greet(line):
+    """
+    this function just prints out given line
+    """
+    print(line)
+print(greet.__doc__)
+print(greet("Hello World!"))
+
+# we can write a good documentation(doc string) like this.
+def square_root(n):
+    """Calculate the square root of a number.
+
+    Args:
+        n: the number to get the square root of.
+    Returns:
+        the square root of n.
+    Raises:
+        TypeError: if n is not a number.
+        ValueError: if n is negative.
+    """
+    import math
+    print(math.sqrt(n))
+    
 # challange 11
 filename_1=input("enter your filename: ")
 writeInput_1=input("enter what you want to input in this file: ")

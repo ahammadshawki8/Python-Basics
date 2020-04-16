@@ -12,6 +12,7 @@ print ("""I read in class 9.
 which class do you read in?""")
 
 #we can use + between two strings under same command for displaying them jointly.
+# this is called string concatenation.
 print ("I am a coder."+"I am learning python.")
 
 # we can also use comma between two string or a strind and integer/float value.
@@ -26,3 +27,29 @@ print ("I love programming \" do you?")
 #if we want to display \, just put it in its place.
 #but some string may have words like \news, \talk,This time we have to put another \ before \.
 print("I want to print\\news")
+
+# string repetition
+# we can multiply string with integer. it is called repetition.
+print("Boo! "*4)
+
+# all the work that we have done before using back-slash are called "escape sequence"
+# there are lots more escape sequence.
+# sequence              intro
+# \\                single back-slash
+# \'                single quote
+# \"                double quote
+# \a                ASCII Bell (BEL)
+# \b	            ASCII Backspace (BS)
+# \f	            ASCII Formfeed (FF)	
+# \n	            ASCII Linefeed (LF)	
+# \r	            ASCII Carriage Return (CR)	
+# \t	            ASCII Horizontal Tab (TAB)	
+# \v	            ASCII Vertical Tab (VT)	
+# \ooo	            Character with octal value ooo	
+# \xhh	            Character with hex value hh
+# \N{name}	        Character named name in the Unicode database
+# \uxxxx	        Character with 16-bit hex value xxxx. Exactly four hexadecimal digits are required.
+# \Uxxxxxxxx	    Character with 32-bit hex value xxxxxxxx. Exactly eight hexadecimal digits are required.
+
+# to learn more, we can go to
+"http://python-ds.com/python-3-escape-sequences"
