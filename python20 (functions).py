@@ -148,9 +148,14 @@ print(f)
 def factorial(n):
     if n==1:
         return 1
+    # this is called the base-case of the recursive function
     else:
         return n*factorial(n-1)
 print(factorial(5))
+
+# note that, whenever we have a recursive function we need to put an if-else case.
+# unless it will give us a recursion error.
+
 
 # we can do this without recursive function.
 def factorial1(n):

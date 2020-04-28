@@ -13,6 +13,7 @@ print(message.find("world"))#tells us the position of the word. the number which
 print(message.count("o"))#count the number of the letter.
 print("       dhaka        ".strip())#ignore the blank space.
 print(message.startswith("H"))# gives a boolean. if a string starts with the character or not.
+print(message.endswith("d"))# gives a boolean. if a string ends with the character or not.
 
 # Example-
 name=input("what is your name?")

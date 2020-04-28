@@ -54,7 +54,7 @@ add_employee("Corey",emps)
 # now lets add couple of more employess without any list.
 add_employee("Shawki")
 add_employee("Hasnine")
-# we can think that we will get a dnew list each time.
+# we can think that we will get a new list each time.
 # but if we run that we can see that we are getting-
 #['Shawki']
 #['Shawki', 'Hasnine']

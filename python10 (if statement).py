@@ -96,6 +96,20 @@ else:
     print("Done")
 # this else code will execute after our looping get stopped.
 
+# all() and any() function.
+# all() and any() function takes an iterable as an arguement.
+# all() returns true if all the values of that iterable is true, otherwise false.
+# any() returns true if any of the values of that iterable is true, otherwise false.
+if all([True,True,True,False]):
+    print("Ok")
+else:
+    print("no")
+
+if any([True,False,False,False]):
+    print("ok")
+else:
+    print("no") 
+
 # challange 5
 # calculate shipping charges for a shoper.
 

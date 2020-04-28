@@ -1,7 +1,7 @@
 # module 24
 # importing module and exploring standerd library.
 
-# module can be of 3 typres.
+# module can be of 3 types.
 # first one is standerd libraries. they are default built in modules of python.
 # second one is third party libraries. Very good developers make this libraries for a certain use.
 # third is own module. right now, the file we are working on, is one kind of module of our own.
