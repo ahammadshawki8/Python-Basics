@@ -78,8 +78,8 @@ except:
     raise NameError("Just Kidding")
 # we can raise any other error if we want.
 
-#if we want to know what the error was,how do we know what the errors will be raised.
-#we can test it ourselves by using the function sys.exc_info()
+# if we want to know what the error was,how do we know what the errors will be raised.
+# we can test it ourselves by using the function sys.exc_info()
 # there is a list of standered python errors
 #-http://docs.python.org/3/c-api/exceptions.html#standard-exceptions
 
@@ -106,6 +106,9 @@ try:
     print(str(first)+" / "+str(second)+" = "+str(result))
 except ZeroDivisionError:
     print("The answer is undefined")
+# instead of using sys module we can also print out the error.
+except ValueError as e:
+    print(e)
  
 # Ideally we should handle one or more specific error and then have a generic error handler as well.
 import sys 

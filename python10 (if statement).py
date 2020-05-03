@@ -96,6 +96,19 @@ else:
     print("Done")
 # this else code will execute after our looping get stopped.
 
+# we can also use  else statement after error handling.
+# it will execute if certain except statement becomes False.
+my_file = "/temp/test.txt"
+
+try:
+    f=open(my_file,"r")
+except IOError as e:
+    print("File cannot be accessed")
+
+else:
+    with f:
+        print(f.read())
+
 # all() and any() function.
 # all() and any() function takes an iterable as an arguement.
 # all() returns true if all the values of that iterable is true, otherwise false.

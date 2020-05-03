@@ -11,7 +11,7 @@ import random
 # we can use the random method to get a random value between 0 and 1.
 # the 0 is going to be inclusive.
 # the 1 is going to be none-inclusive.
-# it means we can get a exact value of 0, but we can not get a exact value of 1, we can probably get 0.999 or something like that.
+# it means we can get a exact value of 0, but we can not get a exact value of 1 (exclusive), we can probably get 0.999 or something like that.
 value_1=random.random()
 print(value_1)
 
@@ -40,16 +40,16 @@ print(value_5)
 # here we need to add an additional arguement which is K value.
 # k value is just how many times we want to pick random values.
 # by default the k value is 1.
-# here the probability of printing red , green and black are equa-probable.
+# here the cases of printing red , green and black are equa-probable.
 # but sometimes that wont happen.
 # in that case we can weight this so that our random choices take this odds into consideration.
 # and we can set these weights of our choices by passing an extra arguement which is weights.
 colors=["red","black","green"]
 value_6=random.choices(colors,weights=[18,10,2],k=10)# here weights is an list of what we want to weight this.
 print(value_6)
-# here red has 18 0f 30% chances to print.
-# here black has 10 0f 30% chances to print.
-# here green has 12 0f 30% chances to print.
+# here red has 18 0f 30 chances to print.
+# here black has 10 0f 30 chances to print.
+# here green has 12 0f 30 chances to print.
 
 # how we can randomly shuffle a list of values?
 # lets say we have a list of values from 1 to 52. now we can think this as a deck of cards.
@@ -69,7 +69,7 @@ deck_2=list(range(1,53))
 hand=random.sample(deck_2,k=5)
 print(hand)
 
-# we can find more practical code of random library inthe following link-
+# we can find more practical code of random library in the following link-
 #https://github.com/CoreyMSchafer/code_snippets/tree/master/Python-Random
 
 
@@ -82,7 +82,7 @@ def head_tail_baksho(mot_toss_koibar):
     for i in range(mot_toss_koibar):
         value_7 = random.randint(0,1)
         if value_7 ==1:
-           head +=1
+            head +=1
         else:
             tail +=1
     print("head -->",head) 
