@@ -1,4 +1,4 @@
-# module 30
+# module 26
 # Counter Class
 
 # In different programming problems, sometimes we have to keep a count of different items in our list.

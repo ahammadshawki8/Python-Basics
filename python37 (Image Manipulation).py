@@ -1,4 +1,4 @@
-# module 42
+# module 37
 # image manipulation with pillow.
 
 # in this series we will look at the pillow library for python.

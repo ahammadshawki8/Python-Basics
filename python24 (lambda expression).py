@@ -1,4 +1,4 @@
-# module 28
+# module 24
 # lambda expression
 # lambda expression is a special kind of function which doesnt have any name.
 # it is also called anonymous function.

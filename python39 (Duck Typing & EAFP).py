@@ -1,4 +1,4 @@
-# python 44
+# python 39
 # duck typing and asking forgiveness, not permission (EAFP)
 
 # in this module, we will go over couple of aspects of being pythonic.
