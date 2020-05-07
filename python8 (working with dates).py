@@ -1,4 +1,3 @@
-# module 8
 # Working with dates
 
 import datetime # the import statement gives us access to the functionality of datetime module. It is actually means to avialable any module.

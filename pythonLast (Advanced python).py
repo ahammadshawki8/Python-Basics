@@ -1,4 +1,3 @@
-# module last
 # advanced python
 
 # what is advanced python?

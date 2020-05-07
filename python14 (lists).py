@@ -1,4 +1,3 @@
-# module 14
 # lists
 
 guests=["Shawki","Ramos","Ronaldo","Marcelo"]

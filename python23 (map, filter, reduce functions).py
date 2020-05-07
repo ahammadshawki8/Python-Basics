@@ -1,4 +1,3 @@
-# module 23
 # map, filter & reduce function.
 
 # map function

@@ -1,4 +1,3 @@
-# module 16
 # reading from file
 
 # how do we read the file content?

@@ -1,4 +1,3 @@
-# module 29
 # 10 quick tips for python coders.
 
 # tip 1

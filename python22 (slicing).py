@@ -1,4 +1,3 @@
-# module 22
 # slicing
 
 # slicing list 

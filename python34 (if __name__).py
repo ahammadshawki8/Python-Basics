@@ -1,5 +1,4 @@
-# module 34
-# if __name__=="__main__"
+# if __name__ == "__main__":
 
 # this is something that we probably going to see a lot in python.
 

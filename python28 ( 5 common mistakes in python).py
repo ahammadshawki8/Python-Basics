@@ -1,4 +1,3 @@
-# module 28
 # 5 common mistakes in python.
 
 # mistake 1

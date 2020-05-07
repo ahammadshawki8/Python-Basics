@@ -1,4 +1,3 @@
-# module 30
 # more tips
 
 # tip1

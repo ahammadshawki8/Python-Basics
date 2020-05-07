@@ -1,4 +1,3 @@
-# module 40
 # logging basics
 
 # we can do lots of things in logging in python.

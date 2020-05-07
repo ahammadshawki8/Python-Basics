@@ -1,4 +1,3 @@
-# module 2
 # displaying text
 
 #to make multiple line we can- 1.add \n in the string or, 2.use print command again and again.\n means newline.

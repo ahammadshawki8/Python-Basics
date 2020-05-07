@@ -1,4 +1,3 @@
-# module 7
 # asking user to input number 
 
 # there are functions to convert from one datatype to another.

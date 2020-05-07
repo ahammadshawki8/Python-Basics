@@ -1,4 +1,3 @@
-# module 19
 # tuples
 
 # tuples are pretty much simmilar to list.

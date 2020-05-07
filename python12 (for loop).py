@@ -1,7 +1,6 @@
-# module 12
-
 # Repeating events
-# Using loop
+# Using for loop
+
 import turtle # turtle is a library that helps us to draw.
 turtle.color("blue")
 turtle.forward(100)
@@ -201,3 +200,5 @@ for n in nums:
                 continue
         print(n)   
 # continue will skip to next value of the loop.
+
+turtle.done()

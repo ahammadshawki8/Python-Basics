@@ -1,5 +1,5 @@
-# module 5
 # manipulate the contents of variables.
+
 # lower, upper, swapcase are different string functions.
 
 message="Hello world"

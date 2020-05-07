@@ -1,5 +1,5 @@
-# module 10
 # if statement
+
 answer = input("Do you buy a ice-cream for me? (yes/no)\n")
 if answer =="yes": # if statement allows us to specify code that only executes if a specific condition is true.
     print("Of course. Why not?") # we have to press TAB before writing down print command.

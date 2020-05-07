@@ -1,4 +1,3 @@
-# module 41
 # advanced logging
 
 # in this module, we will learn about loggers, different handlers and some other things.

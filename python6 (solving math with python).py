@@ -1,4 +1,3 @@
-# module 6
 # Solving math
 
 # addition +            exp: 5+1=6

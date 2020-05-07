@@ -1,4 +1,3 @@
-# module 36
 # namedtuple
 
 # in this module, we will look what is namedtuple? and why we should use them?

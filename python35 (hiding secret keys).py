@@ -1,4 +1,3 @@
-# module 35
 # hiding secret keys.
 
 # we will learn how we can save seccret keys in environment variable and use that in our python module.

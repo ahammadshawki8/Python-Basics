@@ -1,5 +1,5 @@
-# module 9
-# working with times
+# working with time
+
 import datetime
 current_time=datetime.datetime.now()# the part after "=" is the code which access the current_time in our code. Now is a function which returns present time.
 print(current_time)

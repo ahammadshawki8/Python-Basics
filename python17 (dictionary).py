@@ -1,4 +1,3 @@
-# module 17
 # using dictionary in python
 
 # how to open a dictionary.

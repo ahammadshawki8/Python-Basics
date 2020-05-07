@@ -1,4 +1,3 @@
-# module 15
 # working with files
 
 # how do we write a file with code?

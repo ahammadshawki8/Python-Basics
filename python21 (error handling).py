@@ -1,4 +1,3 @@
-# module 21
 # error handling
 
 # Things go wrong in programmes as well.

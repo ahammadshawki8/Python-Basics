@@ -1,4 +1,3 @@
-# Module 27
 # Iterables, Generators and yeild function
 
 # QUESTION: 

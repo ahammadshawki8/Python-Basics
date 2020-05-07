@@ -1,5 +1,5 @@
-# module 24
 # lambda expression
+
 # lambda expression is a special kind of function which doesnt have any name.
 # it is also called anonymous function.
 # lambda expression always return the value, it doesnt print it.

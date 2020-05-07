@@ -1,4 +1,3 @@
-# module 18
 # sets
 
 # what is a set?

@@ -1,4 +1,3 @@
-# module 33
 # decorators
 
 # we have to learn first class function and closures concept first to learn decorators.
