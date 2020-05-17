@@ -103,7 +103,9 @@ second=float(input("enter second number: "))
 try:
     result=first/second
     print(str(first)+" / "+str(second)+" = "+str(result))
-except ZeroDivisionError:
+
+# we can also use two errors in except statemetn at a time.
+except (ZeroDivisionError, KeyError):
     print("The answer is undefined")
 # instead of using sys module we can also print out the error.
 except ValueError as e:

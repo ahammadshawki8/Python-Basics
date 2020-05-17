@@ -292,3 +292,59 @@ print(j)
 
 # now when we learn the LEGB rule, we know what will happen in these types of situation in our code
 # and we will be able to overcome them easily.
+
+
+
+
+# Extra NOTE:
+# namespace
+# it refers to a container that hold objects and the name associated with this objects.
+# if we create a variable we will create an element in this name space
+x = 3
+# it is pretty much like a dictionary which have a key and a value.
+# here x is the key to the value 3
+# we can see the memory location for object x by id() function.
+print(id(x))
+# if we look at the memory value for 3 we will see that it is the same id.
+print(id(3))
+# everything we are assigning here is taking place in the global namespace
+# in python there are many different namespaces located in one script.
+# when we import a module, we are actually importing that modules namespace into our script.
+# if we import pandas
+import pandas as pd
+print(pd.DataFrame)
+DataFrame=3
+print(DataFrame)
+# here we can work with two different DataFrame object and they didn't collid
+# because they are situated in different namespace.
+# DataFrame=3 is situated in our global namespace and pd.DataFrame situated in the pandas namespace.
+# but we can access them in the same script.
+# so we can access to many different namespaces within a single script.
+# we also have a local namespace which is situated in a function.
+# variables in the function has their own local namespace and it is different from the global namespace.
+def my_func():
+    x=4
+    y=5
+    print(x+y)
+# we can access the local variables of a function outside of that function.
+# there is another type of namespace called built-ins
+# that are basically the builtins reserved name for python such as mix, max, class, def etc.
+
+
+# difference between namespace and scope?
+
+# Namespace:
+# It is a naming system for making names unique to avoid the code complexity and ambiguity.
+# It is like an abstract container which holds unique identifiers.
+
+# Scope:
+# In technical terms, a scope is a region of program where a defined variable 
+# can be accessed and beyond that region a variable can not be accessed.
+
+# so scopes are the regions and namespace are the mapping of objects and their names in that perticular region.
+# each distinct scope in python is represented using a namespace which is an abstraction.
+# a namespace manages all the variables and functions that are currently defined in a given scope.
+# we can see the keys which are the names within the namespace by dir method.
+print(dir(pd))
+# we can see both the keys and the values by vars() method
+print(vars(pd))
