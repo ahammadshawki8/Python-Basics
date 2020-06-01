@@ -30,6 +30,11 @@ print("I have {0:.2f} cats".format(6))
 # Using format function to insert multiple values -
 print("here is four numbers {0:d}, {1:d}, {2:d}, {3:d}.".format(43,42,81,96))
 
+# we can also use !r for formating the string.
+print("I see it in python expert video {!r}".format((1,2,3)))
+# !r which stands for represent.
+# it is mostly used in the __repr__ method in oop.
+
 # Sometimes commands are too long to fit in a single line. In this cases, we can use a "\" to indicate a command continues on the next line.
 #exp-
 print("I love playing "+\

@@ -30,7 +30,7 @@ display_info("Corey",28)
 
 # now lets get our decorator_function to except arguements.
 # lets say we want to add a customizable preffix to all of this print statement within the wrapper.
-# we can think of thw arguement that we passed in that would be the prefix.
+# we can think of the arguement that we passed in that would be the prefix.
 # in order to do this we need to add another outer layer to our decorator.
 # we are going to call it prefix_decorator() function. and it will take an prefix as an arguement.
 # WARNING: this will be going to more harder to keep an track whats going on as there are nested over nested over...

@@ -35,7 +35,7 @@ div_result=div(n1,n2)
 print(f"div: {n1} / {n2} = {div_result}")
 
 # here we have some print statement commented out.
-# if we run it as it is it run succesfully with no errors
+# if we run it as it is it run successfully with no errors
 # but we dont know if it did all thing correctly or not.
 # in order to ensure that lets uncommon out the print statements and run this again.
 # we can see that every thing is correct.
@@ -46,7 +46,7 @@ print(f"div: {n1} / {n2} = {div_result}")
 # first of all we have to import this.
 import logging
 
-# before we log anything out lets talk about logging levels.
+# before we log anything out lets learn about "logging levels".
 # logging levels allows us to specify what exactly we want to log by separating this into catagories.
 # there are five standerd logging levels. these are:
     # 1. debug
@@ -54,7 +54,7 @@ import logging
     # 2. info
         # confirmation that things are working expected.
     # 3. warning
-        # an indecation that something unexpected happened, or indicative of some problem in the near future (e.g. disk space low)
+        # an indication that something unexpected happened, or indicative of some problem in the near future (e.g. disk space low)
         # the software is still working as expected.
     # 4. error
         # due to a more serious problem, the software has not been able to perform some function.
@@ -63,7 +63,7 @@ import logging
 # source: python docs
 
 # the default level for logging is set to warning.
-# that means it will acpture everything that is warning or above.
+# that means it will capture everything that is warning or above.
 # so by default, it will run warning, error, and critical and ignore debug and info.
 
 # lets say we want to turn our print staments into logging.debug() statement.
@@ -111,7 +111,7 @@ logging.basicConfig(level=logging.DEBUG)
 # here we have to set the level to logging.DEBUG
 # note that here DEBUG is upper case. it is different than debug() method.
 # it is a constant that is a integer in the background.
-# this constants just increment by 1o.
+# this constants just increment by 10.
 # so DEBUG=10, INFO=20, WARNING=30, ERROR=40, CRITICAL=50.
 
 # now lets change all of our warning() back to debug().
@@ -134,7 +134,7 @@ logging.debug(f"div: {n1} / {n2} = {div_result}")
 # so instead of logging this message into console, lets just create a log file.
 
 # it is as easy to specify a file in our basicConfig() method.
-logging.basicConfig(filename="loggingB.log", level=logging.DEBUG)
+logging.basicConfig(filename="Basics_Log.log", level=logging.DEBUG)
 # so the keyword we are going to use here is filename and set that equal to our filename.
 
 # lets run this again.
@@ -162,9 +162,9 @@ logging.debug(f"div: {n1} / {n2} = {div_result}")
 """https://docs.python.org/3/library/logging.html#logrecords-attributes"""
 
 # lets say we want to change our logging format to time and level name and the message.
-logging.basicConfig(filename="loggingB.log", level=logging.DEBUG, 
-                    format="%(asctime)s:%(levelname)s:%(message)s")
+logging.basicConfig(filename="Basics_Log.log", level=logging.DEBUG, format="%(asctime)s:%(levelname)s:%(message)s")
 # here we need to add another arguement which is format.
+
 # now if we run our logging commands again.
 add_result=add(n1,n2)
 logging.debug(f"add: {n1} + {n2} = {add_result}")
@@ -183,14 +183,15 @@ logging.debug(f"div: {n1} / {n2} = {div_result}")
 # now lets look at another module and add some logging.
 
 import logging
-logging.basicConfig(filename="Employee.log",level= logging.INFO, format="%(levelname)s:%(message)s")
+logging.basicConfig(filename="Basics_Emp.log",level= logging.INFO, format="%(levelname)s:%(message)s")
 
 class Employee: # here we have a small Employee class
     def __init__(self,first,last):
         self.first=first
         self.last=last
 
-        logging.info("Created Employee: {} - {}".format(self.fullname,self.email)) # here we are printing out that we haave crated a new employee.
+        logging.info("Created Employee: {} - {}".format(self.fullname,self.email)) 
+        # here we are printing out that we have crated a new employee.
 
     @property
     def fullname(self):
@@ -204,9 +205,9 @@ emp1=Employee("Ahammad","Shawki")
 emp2=Employee("John","Dalton")
 emp3=Employee("Carl","Goog")
 
-# if we run this we can see it tells us that we crated two employees.
+# if we run this we can see it tells us that we created three employees.
 # now lets go ahead and add some logging.
-# now lets import logging and add basicConfig and the change our print functionto logiign.info() function.
+# now lets import logging and add basicConfig and the change our print function to logign.info() function.
 # now if we run this we can see it doesn't print anything in console, intead of that we have a Employee.log file.
 
 
@@ -215,3 +216,5 @@ emp3=Employee("Carl","Goog")
 # because they all try to share same logger.
 # so in next module, we will learn how to create multiple loggers and add handlers and formatters to that loggers
 # and also how we can log infomartion to multiple locations.
+
+""" go to 2_logging_advanced.py """

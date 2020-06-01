@@ -57,7 +57,7 @@ display_info("Shawki",15)
 
 # some people like to use classes as decorators instead of using functions as decorators.
 
-class decorator_class(object):# our decoratoe class is a subclass of object class.object class is the base class of the class hierarchy.
+class decorator_class(object):# our decorator class is a subclass of object class.object class is the base class of the class hierarchy.
     # when we pass our original function to our decorator function we used that as a arguement.
     # we can do that in our class with the __init__ method.
     def __init__(self,origin_function):
@@ -78,7 +78,7 @@ def display_info2(name,age):
 display_info2("Shawki",15)
 
 # thats the two way of creating decorator but functional way is used more often. 
-# but decorator class haave some extra functionality.
+# but decorator class have some extra functionality.
 
 # now we have a basic idea how decorators work.
 # now lets look at some practical examples.
@@ -88,9 +88,9 @@ display_info2("Shawki",15)
 
 def my_logger(orig_func):# here we are passing our original function.
     import logging # importing the logging module
-    logging.basicConfig(filename="{}.log".format(orig_func.__name__),level=logging.INFO)# setting up a log file that matvhes up the name of our original function.
+    logging.basicConfig(filename="{}.log".format(orig_func.__name__),level=logging.INFO)# setting up a log file that matches up the name of our original function.
 
-    def wrapper(*args,**kwargs):# here we have our wrapper function, that takes in *args and **kwargs arguemnet.
+    def wrapper(*args,**kwargs):# here we have our wrapper function, that takes in *args and **kwargs arguement.
         logging.info(
             "Run with args: {} and kwargs: {}".format(args,kwargs)# here it runs the logging. info and logs this line.
         )
@@ -109,13 +109,13 @@ display_info3("Shawki",16)
 # but now the decorator maintain our added functionality in one location and anytime we can apply it anytime we want within our codebase.
 
 # another practical example that people often use decorator for is
-# KEEP THE TRAC OF TIMING HOW LONG A FUNCTION RUNS.
+# KEEP THE TRACK OF TIMING HOW LONG A FUNCTION RUNS.
 
-def my_timer(original_function):#passing in original function
-    import time# importing time module
-    def wrapper(*args,**kwargs):# here we have our wrapper function, that takes in *args and **kwargs arguemnet.
-        t1=time.time()# calculating the initial time
-        result= original_function(*args,**kwargs)# running our original function with the *srgs and **kwargs and set that to result variable. 
+def my_timer(original_function): # passing in original function
+    import time # importing time module
+    def wrapper(*args,**kwargs): # here we have our wrapper function, that takes in *args and **kwargs arguemnet.
+        t1=time.time() # calculating the initial time
+        result= original_function(*args,**kwargs) # running our original function with the *args and **kwargs and set that to result variable. 
         t2=time.time()-t1 # calculating the runtime
         print("{} ran in: {} sec".format(original_function.__name__,t2)) # printing the runtime and the function name.
         return result # print the result of the function
@@ -173,7 +173,7 @@ display_info5("Shawki",15)
 # but we expected display_info5() instead of wrapper.
 # but our log file is created correctly
 
-# but if e switch the order 
+# but if we switch the order 
 @my_logger2
 @my_timer2
 def display_info6(name,age):
@@ -210,8 +210,8 @@ print(display_info7.__name__)
 # we can see the name is wrapper.
 # because we passing our original function to my_timer()
 # and my_timer() returning the wrapper.
-# this ism't a big deal for our previous case.
-# but now we are passing the wrapper funvtion into our my_logger() and it is creating the log file with function name.
+# this isn't a big deal for our previous case.
+# but now we are passing the wrapper function into our my_logger() and it is creating the log file with function name.
 # and the function name is wrapper.
 
 # and the same thing goes whenever we switch the order of those decorators.
@@ -227,7 +227,7 @@ def my_logger3(orig_func):
     import logging
     logging.basicConfig(filename="{}.log".format(orig_func.__name__),level=logging.INFO)
 
-    @wraps(orig_func)# we want to wrap the orig_function
+    @wraps(orig_func) # we want to wrap the orig_function
     def wrapper(*args,**kwargs):
         logging.info(
             "Run with args: {} and kwargs: {}".format(args,kwargs)
@@ -260,6 +260,6 @@ print(display_info8.__name__)
 # now if we run our stacked decorators again, that will work fine.
 
 # decorators are used lot in python and third party library.
-# they are used for class property,web framework and all other stuffs.
+# they are used for class property, web framework and all other stuffs.
 # the most confusing thing about decorators is trying to keep track of 
 # outer functions, original fuctions, wrappers all that kind of stuff.

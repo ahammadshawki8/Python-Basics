@@ -51,3 +51,7 @@ a,b=b,a  # magic line of code.
 
 print(a)
 print(b)
+
+# we can also use multiple initialization at a single line.
+a=b=c=d=e=20
+# here a,b,c,d,e all are alias of each other.

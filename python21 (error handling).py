@@ -198,7 +198,11 @@ if not error:
 assert 4==4
 print("I will run")
 assert 1>2
-print("I wont run") 
+print("I wont run")
+# we can also add message after assertion error to know that why the assertion error actually occurred.
+# we can do that by,
+assert(3==4),"3 cant be equal to 4!"
+
 # lets see a real-world example of assertation
 def kelvin2fahrenheit(temprature):
     assert (temprature>=0),"colder then absolute zero!"
