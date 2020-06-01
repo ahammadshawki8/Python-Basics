@@ -50,6 +50,7 @@ print(next(my_nums))
 # now instead of getting each of the values one at a time we can use for loop in generator.
 for n in my_nums:
     print(n)
+    # inside this loop we can use several operations with each of the values. we dont have to wait for the entire list.
 
 # one immidiate advantage of generator over list is that it is much readable than the list.
 # we can also write the same code in a easy way using list comprehension.
@@ -154,3 +155,75 @@ print(f"Took microseconds : {(t2-t1)*1000}")
 # it efficient the execution time and memory as well.
 # not only that we can do almost every operation with generator that we do with list.
 # thats why we should use generator.
+
+# NOTE: actually generators use lazy evolution where list use eager evolution.
+# eager evotution means that list are eager to return us all the values at once even we need only the first few values.
+# we have to wait for the eager evoution.
+# lazy evotution means generators are lazy. they dont give us result until we ask them to do it.
+# we can only grab few values if we want.
+# so with generator, we can instead of eagarly producing values, provide the certain values to the user as hey asked for.
+
+
+# lets see another use case of generator in the real world example.
+# we have all seen that api looks like that.
+class Api():
+    def run_this_first(self):
+        pass
+    def run_this_second(self):
+        pass
+    def run_this_last(self):
+        pass
+# if we dont run the methods accordingly they everything in api blow up.
+# in api's documentation, they say again and again please run this first, then that blah blah..
+# cause if we do it in any other order all the system crash.
+
+# but nothing physically stops us to break the order. we can,
+Api().run_this_last()
+Api().run_this_second()
+Api().run_this_first()
+
+# onething we have noticed with the generator, that it computes a result.
+# then it not only yeild the result back nut also the control back to the user.
+
+# in the eagar evolution, the library code do the full computation, then gave the result back to user.
+# and the  user do waht he want.
+# in the generator formulation, we have little bit library code run, then lillte bit user code run, then little bit library ....
+# and we interlive them.
+# this is the actual core concept for why generators are made. the ide of "co-routines"
+
+# "sub-routines" we can think of as any piece of executable code from some starting point to some ending point to complish a task.
+# they have one single entry point and one single exit point and thats it. they run, then they are done.
+# the library code has a sub routine and the user has to pick up.
+
+# for the generators (co-routine), we enter the generator.
+# we ask for values and the generator run but we have a nice interliving.
+# here we have interliving of both library code and user code.
+
+# when we use this Api we want to have some interliving.
+# if we dont want that then we can just make it this way,
+def run_Api():
+    Api().run_this_first()
+    Api().run_this_second()
+    Api().run_this_last()
+# then we can force the user run this method in correct order.
+# if we could do this Api wouldnt provide us three methods.
+
+# the reason Api give us this different functions because it specifically intend us to interlive codes.
+# they just want to make sure that we interlive code in a fixed order.'
+# we can easily do this with generator.
+def gen_Api():
+    Api.()run_this_first()
+    yield()
+    Api().run_this_second()
+    yield()
+    Api().run_this_last()
+    yield()
+# here we could do the interliving while easily maintaining sequence.
+# we can gerantee here that the last method will never call before the first and second method.
+# so genrator forces the sequencing for the users.
+
+# NOTE: so generator is a mechanism with which we can interlive with library and user code and it can also ensure sequencing.
+
+    
+    
+
