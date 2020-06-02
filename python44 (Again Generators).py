@@ -212,12 +212,12 @@ def run_Api():
 # they just want to make sure that we interlive code in a fixed order.'
 # we can easily do this with generator.
 def gen_Api():
-    Api.()run_this_first()
-    yield()
+    Api().run_this_first()
+    yield
     Api().run_this_second()
-    yield()
+    yield
     Api().run_this_last()
-    yield()
+    yield
 # here we could do the interliving while easily maintaining sequence.
 # we can gerantee here that the last method will never call before the first and second method.
 # so genrator forces the sequencing for the users.
