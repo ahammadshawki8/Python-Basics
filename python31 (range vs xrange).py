@@ -18,6 +18,8 @@
 # 3. we can slice the range() object and the slice will also be a range object.
 # 4. we have to iterate over range() object to use it.
 
+# actually range() use lazy evolution technic to do its operation.
+
 # 1
 print(range(1,6))
 print(type(range(1,6)))

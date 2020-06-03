@@ -1,6 +1,6 @@
 # unit testing
 
-# in this module, we will learn how to unnit test our code.
+# in this module, we will learn how to unit test our code.
 # we will learn how to write test, how to set up test and also some best practises.
 
 # we should test our code when we are working in projects.

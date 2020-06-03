@@ -1,5 +1,6 @@
 # Solving math
 
+# operators in python
 # addition +            exp: 5+1=6
 # subtaction -          exp: 5-1=4
 # multipication *       exp: 5*2=10
@@ -55,3 +56,26 @@ print(abs(-3))
 print(round(3.56))
 # we can also pass a second argument in the round function.
 print(round(3.732, 1))# this means we want to round 1st digit after the decimal.
+
+# we can also use binary, octal and hexadecimal numbers and create them decimal number using int() method.
+print(int(0b11011))
+print(int(0o52))
+print(int(0x7f))
+
+# we can also explicitely tell the base by adding a second arguement in the int() method.
+print(int("ff7",16))
+
+# to express big integres in scientific way 3.45X10^45 we can use this format.
+print(int(3.45e45))
+
+
+# extra 
+# Bitwise operator
+# Python provides the following bitwise operators for integers:
+      # ∼   bitwise complement (prefix unary operator)
+      # &   bitwise and
+      # |   bitwise or
+      # ˆ   bitwise exclusive-or
+      # <<  shift bits left, filling in with zeros
+      # >>  shift bits right, filling in with sign bit
+

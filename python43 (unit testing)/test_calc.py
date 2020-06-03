@@ -10,11 +10,11 @@ import calc
 class TestClac(unittest.TestCase):
     # lets write our first test. to do this we need to write a method.
     # the method needs to start with test_.
-    # it is a convention and it is required soo that when we run this it actually knows which method we want to test
+    # it is a convention and it is required so that when we run this it actually knows which method we want to test
     # so if the method dont start with test_, it wont be run.
     def test_add(self):
         # now within our method we can write our test.
-        # sins we have inherited from the unittest.TestCase we have the ability of all the assert methods.
+        # since we have inherited from the unittest.TestCase we have the ability of all the assert methods.
         # we can find them in this url.
         """https://www.python.org/3/library/unittest.html#unittest.TestCase.debug"""
 
@@ -23,7 +23,7 @@ class TestClac(unittest.TestCase):
         self.assertEqual(result,15)
 
         # now we need to run this module we can do this in our prompt. "run the unit test.cmd"
-        # NOTE: we cant use- """ python test_calc.py"
+        # NOTE: we cant use- """python test_calc.py"""
         # because it wont return anything, instead of we need to run unittest as our main module and passed in the test_calc module.
         # we can do this by -m tag.
         """python -m unittest test_calc.py"""
@@ -48,7 +48,7 @@ class TestClac(unittest.TestCase):
         # result = calc.sub(10,5)
         # self.assertEqual(result,20)
         # we can see that instead of a dot we got an F for fail.
-        # and it also shows us that the test fils with an assertion error 5 != 20
+        # and it also shows us that the test fails with an assertion error 5 != 20
         # now lets comment our that and add some more testing.
         self.assertEqual(calc.sub(10,5),5)
         # we usually want to test some edge cases. 
@@ -60,6 +60,7 @@ class TestClac(unittest.TestCase):
         # if we run it, it says that it have ran 1 test but we expected 4 test.
         # but really, the 4 assert methods here are just within this single test_add() function
         # even though it says there is one test, we can make this test better by adding in additional checks.
+        
         # NOTE: it is note our goal to write as many tests as possible,
         # we need to just make sure that we write good test.
 
@@ -86,9 +87,9 @@ class TestClac(unittest.TestCase):
         self.assertRaises(ValueError,calc.div,10,0) 
         # first we need to pass the exception,
         # then the name of the function we want to test (without parenthesis)
-        # then pass the arguements of that functions separate by comma
-        # the reason we have to do is this way is--
-        # if we use the asserEqual() then our value will raise that error and our test will think somethink failed.
+        # then pass the arguements of that functions separate by comma one by one
+        # the reason we have to do is this way is -
+        # if we use the asserEqual() then our value will raise that error and our test will think something failed.
         
         # method 2:
         # but testing the exceptions in the previous method is not recommanded
@@ -98,7 +99,7 @@ class TestClac(unittest.TestCase):
         # that will allow us to handle and check the exceptions properly and also call our function normally.
 
         with self.assertRaises(ValueError):
-            # now within this context manager we can call our funcction normally
+            # now within this context manager we can call our function normally
             calc.div(20,0)
 
 
@@ -122,8 +123,8 @@ class TestClac(unittest.TestCase):
     # our current test wont catch this because right now all of our divisions are whole numbers.
     # so lets say some point floor division broke our code, 
     # and after some debugging we traced that and found that problem.
-    # in that case it is a good practise to update our test with the test that we have caught the error
-    # so that we dont leave those same bugs again and again.
+    # in that case it is a good practise to update our tests with the test that we have caught the error
+    # so that we dont leave those same bugs again and again for future.
     # so lets update our test_div() function.
 
     # there is one more thing that we can see in our calc.py file.

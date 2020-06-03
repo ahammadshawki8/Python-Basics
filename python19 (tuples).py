@@ -33,3 +33,12 @@ print(tup1)
 # so we can just-
 tup2=tuple(tup1)
 print(tup2)
+
+# if we want to instantiate a tuple with single value we need to use comma after that.
+# because if we dont use comma, then python will thought that it is a single value.
+my_tup=(1,)
+print(type(my_tup))
+# we can see that it prints <class 'tuple'>
+not_tup=(1)
+print(type(not_tup))
+# we can see that it prints <class 'int'>

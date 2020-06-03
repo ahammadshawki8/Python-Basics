@@ -47,17 +47,17 @@ class TestEmployee(unittest.TestCase):
         self.assertEqual(emp1.pay,10500)
         self.assertEqual(emp2.pay,525)
 
-# this is slightly more complecated test then our simple calculator test.
+# this is slightly more complicated test then our simple calculator test.
 # if we run this then we can see that all of those tests passed.
 # one thing we might notice that at the beginning we are created two same employees.
 # when should we see the same code over and over, we should make that code dry.
 # the reason behind is that if we need to change something we dont want to change that in multiple lines
 # so it would be nice if we create them from scratch in one place and reuse them in every place.
 # and there is a way to do that and that is what setUp() and tearDown() method for.
-# at the top of our class we will create those methods. these are CamelCase
+# at the top of our class we will create those methods. these are CamelCase.
+
 
 # lets create another class.
-
 
 class TestEmployee2(unittest.TestCase):
     # setUP() and tearDown() methods.
@@ -125,9 +125,9 @@ class TestEmployee2(unittest.TestCase):
 # sometimes it is also useful to run somecode at the very beginning of the test file,
 # and then have some clean up code that run after all the test have been run.
 # so unlike the setUp() and tearDown() which runs before and after every test,
-# it would be nice if we have something that run onece before everything and then once after everything.
+# it would be nice if we have something that run once before everything and then once after everything.
 
-# we can do this with 2 class method called setUCclass and tearDownClass.
+# we can do this with 2 class method called setUpClass and tearDownClass.
 # we will do that in another module.
 """ go to test_employee_class """
 

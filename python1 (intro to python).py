@@ -11,6 +11,11 @@ print ('I am Shawki')
     so we are using it as a comment. this string like
     comment is called documentation."""  
 
+# Python provides integrated support for embedding formal documentation directly
+# in source code using a mechanism known as a docstring.
+# it means, if we have documentation in the function or a class that is called docstring.
+# and we can grab them by __doc__ attribute.
+
 # how to count the number of characters in a string?
 # using len function
 # len is the short form of lenth 

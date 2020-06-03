@@ -48,6 +48,7 @@ a=1
 b=2
 
 a,b=b,a  # magic line of code.
+# this is is simultaneous assignment. it happens because automatic packing and unpacking data.
 
 print(a)
 print(b)

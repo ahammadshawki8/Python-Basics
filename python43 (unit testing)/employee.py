@@ -39,7 +39,7 @@ class Employee:
     # the information on this website we want to mock 
     # because we dont our test success depends on the website being up
     # we only care the get method went to the currect url and our code works correctly whether the response is ok or not.
-    # to do this we need to import pacth from unittest.mock
+    # to do this we need to import patch from unittest.mock
 
     "go back to test_employee_class.py"
         

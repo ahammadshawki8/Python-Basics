@@ -61,12 +61,12 @@ class TestEmployee(unittest.TestCase):
 # setUpClass() and tearDownClass() will be useful if we want to do something once 
 # and it is too costly to do before each test.
 
-# for example lets say we want to read data from a database to test our methods.
+# for example, lets say we want to read data from a database to test our methods.
 # then it would be good if we read the data from the database at once in the setUpClass() and then do our tests
-# and atlast close the connection of the database at the tearDownClass() method.
+# and at last close the connection of the database at the tearDownClass() method.
 
 # there is one more thing we need to learn about unit testing.
-# sometimes our code relies on sertain things that we have no control over.
+# sometimes our code relies on certain things that we have no control over.
 # for example, lets say we have a function that goes to a website and pulls the information from that site.
 # if the website is down then our function will fail and then our test will fail.
 # but we want our test to fail if something is wrong with our code.
@@ -153,13 +153,13 @@ class TestEmployee2(unittest.TestCase):
             # so in our employee module if its response.ok is true, then we will get our response.text back
 
             # now within this context manager, lets run our monthly scedule method just like we are testing it.
-            scedule = self.emp1.monthly_scedule("May") # here we pass the moth name, it is not useful in the context.
-            # one cool thing about mock is that, they actually record when. they are called and with what values.
+            scedule = self.emp1.monthly_scedule("May") # here we pass the month name, it is not useful in this context.
+            # one cool thing about mock is that, they actually record when they are called and with what values.
             # so we want to make sure that the get method is called with the currect url.
             # to do this we can,
             mocked_get.assert_called_with("https://www.company.com/shawki/May")
             # this url is from the employee class
-            # # sfter we know that the method is called with correct url, 
+            # after we know that the method is called with correct url, 
             # lets make sure that this method has returned the correct text.         
             self.assertEqual(scedule,"IT IS SUCCESSFUL :)")
 
@@ -176,9 +176,8 @@ class TestEmployee2(unittest.TestCase):
             # if we run this we can see that all of our tests passed
 
 # this mocking can be little confusing when we first see it.
-# we dont use it much unless we are accessing with urls which are basically out of our control.
-# whenever we do need it it is nice to know.
-
+# we dont use it much unless we are accessing with real urls which are basically out of our control.
+# so whenever we do need it it is nice to know the basics about how to use them.
 
 
 if __name__ == "__main__":
