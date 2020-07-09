@@ -211,7 +211,18 @@ def kelvin2fahrenheit(temprature):
 # when the got an assertation error, they can see the message and can know why this is happening.
 # like other exception, we can handle this exception with try & except too. 
 
-
+# we can also create our own error. it will going to be a class.
+class CustomError(Exception): # this error class will inherit from built-in python Exception class.
+    pass
+# now we can use this error by raise keyword.
+def err_name(name=None):
+    if name is None:
+        raise CustomError("expected 1 arguement (name) but none was given")
+    else:
+        return "Beautiful Name :)"
+#print(err_name())
+print(err_name("Shawki"))
+      
 # challange 12 
 import sys
 name=input("enter the name of your file: ")

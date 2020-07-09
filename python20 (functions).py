@@ -176,7 +176,8 @@ my_gen=gen_func(nums)
 print(list(my_gen))
 
 # using documentation in function.
-# we can use documentation inside our function and print the documentation using __doc__ attribute.
+# we can use documentation inside our function and then they will be called docstrings.
+# we can print the docstrings using __doc__ attribute.
 # usually, programmer use documentation for writting information about the function or what that code is doing.
 def greet(line):
     """

@@ -21,11 +21,11 @@ print(list2)
 # pythons copy module is a great module which gives us some useful functions.
 # those functions can help us to copy any object.
 
-# first we haev to import the module
+# first we have to import the module
 import copy
 
 # shallow copy is a special kind of copy which doesn't copy the object rather than copy the reference of that object.
-# we can do a shallow copy using copy() method. we can also use the built-in() copy methdo here.
+# we can do a shallow copy using copy() method. we can also use the built-in copy() method here.
 list3=[[1,2,3],[4,5,6],[7,8,9]]
 
 list4=copy.copy(list3)
