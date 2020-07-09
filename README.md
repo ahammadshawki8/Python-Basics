@@ -4,7 +4,9 @@ In this repository, I have added Python basics code which will be helpful for be
 Lots of basics topics has been covered with sufficient examples. After studying this repository, coders will have a proper knowledge about coding in Python. 
 After that, they can move to any separate field of programming. It can be Data Science, Software Enginnering, Web Development, Game Development, System Development etc.
 
+
 The materials in this repository were collected from:
+
 --> This video is highly recommanded:
 https://www.youtube.com/watch?v=eHxoh9Rrtdk
 
