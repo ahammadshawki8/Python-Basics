@@ -1,4 +1,4 @@
-# Python is the best language to start for beginners.
+# Python is the best language to start for beginners
 
 In this repository, I have added Python basics code which will be helpful for beginners who are new to programming as well as programmers of different language. 
 Lots of basics topics has been covered with sufficient examples. After studying this repository, coders will have a proper knowledge about coding in Python. 
@@ -22,7 +22,7 @@ Books:
 Video Tutorials:
   Youtube channel:
     Corey Schafer - https://www.youtube.com/user/schafer5 
-    FreeCodeCamp - https://www.youtube.com/user/schafer5
+    FreeCodeCamp - https://www.youtube.com/channel/UC8butISFwT-Wl7EV0hUK0BQ
     CS Dojo - https://www.youtube.com/channel/UCxX9wt5FWQUAAz4UrysqK9A
     Tech with Tim - https://www.youtube.com/channel/UC4JX40jDee_tINbkjycV4Sg
     Sentdex - https://www.youtube.com/user/sentdex
