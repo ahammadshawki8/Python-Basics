@@ -23,7 +23,7 @@ https://www.amazon.com/Structures-Algorithms-Python-Michael-Goodrich/dp/11182902
   
   
 Youtube channels: 
-1. Corey Schafer (@Corey Schafer) - https://www.youtube.com/user/schafer5 
+1. Corey Schafer (@CoreyMSchafer) - https://www.youtube.com/user/schafer5 
 2. freeCodeCamp (@freeCodeCamp)- https://www.youtube.com/channel/UC8butISFwT-Wl7EV0hUK0BQ
 3. CS Dojo (@ykdojo)- https://www.youtube.com/channel/UCxX9wt5FWQUAAz4UrysqK9A
 4. Tech with Tim (@techwithtim)- https://www.youtube.com/channel/UC4JX40jDee_tINbkjycV4Sg
