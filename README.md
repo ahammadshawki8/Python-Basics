@@ -12,6 +12,7 @@ After that, they can move to any separate field of programming. It can be Data S
 https://www.youtube.com/watch?v=eHxoh9Rrtdk
 
 Also you could read books and watch videos form youtube channels or websites to learn python.
+
 Books:
   
   1. Learn Python the Hard Way: A Very Simple Introduction to the Terrifyingly Beautiful World of Computers and Code - (Zed Shaw)
@@ -23,12 +24,12 @@ Books:
   
 Video Tutorials:
   
-  Youtube channel:
-    1. Corey Schafer - https://www.youtube.com/user/schafer5 
-    2. freeCodeCamp - https://www.youtube.com/channel/UC8butISFwT-Wl7EV0hUK0BQ
-    3. CS Dojo - https://www.youtube.com/channel/UCxX9wt5FWQUAAz4UrysqK9A
-    4. vTech with Tim - https://www.youtube.com/channel/UC4JX40jDee_tINbkjycV4Sg
-    5. Sentdex - https://www.youtube.com/user/sentdex
-    6. Clever Programmer - https://www.youtube.com/channel/UCqrILQNl5Ed9Dz6CGMyvMTQ
-    7. Edureka - https://www.youtube.com/user/edurekaIN
-    8. Telusko - https://www.youtube.com/user/javaboynavin
+  Youtube channels:
+    *. Corey Schafer - https://www.youtube.com/user/schafer5 
+    *. freeCodeCamp - https://www.youtube.com/channel/UC8butISFwT-Wl7EV0hUK0BQ
+    *. CS Dojo - https://www.youtube.com/channel/UCxX9wt5FWQUAAz4UrysqK9A
+    *. vTech with Tim - https://www.youtube.com/channel/UC4JX40jDee_tINbkjycV4Sg
+    *. Sentdex - https://www.youtube.com/user/sentdex
+    *. Clever Programmer - https://www.youtube.com/channel/UCqrILQNl5Ed9Dz6CGMyvMTQ
+    *. Edureka - https://www.youtube.com/user/edurekaIN
+    *. Telusko - https://www.youtube.com/user/javaboynavin
