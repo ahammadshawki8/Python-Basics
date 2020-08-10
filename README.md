@@ -25,11 +25,11 @@ Books:
 Video Tutorials:
   
   Youtube channels:
-    *. Corey Schafer - https://www.youtube.com/user/schafer5 
-    *. freeCodeCamp - https://www.youtube.com/channel/UC8butISFwT-Wl7EV0hUK0BQ
-    *. CS Dojo - https://www.youtube.com/channel/UCxX9wt5FWQUAAz4UrysqK9A
-    *. vTech with Tim - https://www.youtube.com/channel/UC4JX40jDee_tINbkjycV4Sg
-    *. Sentdex - https://www.youtube.com/user/sentdex
-    *. Clever Programmer - https://www.youtube.com/channel/UCqrILQNl5Ed9Dz6CGMyvMTQ
-    *. Edureka - https://www.youtube.com/user/edurekaIN
-    *. Telusko - https://www.youtube.com/user/javaboynavin
+    * Corey Schafer - https://www.youtube.com/user/schafer5 
+    * freeCodeCamp - https://www.youtube.com/channel/UC8butISFwT-Wl7EV0hUK0BQ
+    * CS Dojo - https://www.youtube.com/channel/UCxX9wt5FWQUAAz4UrysqK9A
+    * vTech with Tim - https://www.youtube.com/channel/UC4JX40jDee_tINbkjycV4Sg
+    * Sentdex - https://www.youtube.com/user/sentdex
+    * Clever Programmer - https://www.youtube.com/channel/UCqrILQNl5Ed9Dz6CGMyvMTQ
+    * Edureka - https://www.youtube.com/user/edurekaIN
+    * Telusko - https://www.youtube.com/user/javaboynavin
