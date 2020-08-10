@@ -1,5 +1,5 @@
 ![Poster](https://github.com/ahammadshawki8/Python-Basics/blob/master/basics.jpg)
-# Python is the best language to start for beginners
+# _Python is the best language to start for beginners_
 
 In this repository, I have added Python basics code which will be helpful for beginners who are new to programming as well as programmers of different language. 
 Lots of basics topics has been covered with sufficient examples. After studying this repository, coders will have a proper knowledge about coding in Python. 
@@ -31,3 +31,6 @@ Youtube channels:
 6. Clever Programmer (@CleverProgrammer)- https://www.youtube.com/channel/UCqrILQNl5Ed9Dz6CGMyvMTQ
 7. Edureka - https://www.youtube.com/user/edurekaIN
 8. Telusko - https://www.youtube.com/user/javaboynavin
+
+# _License_
+Details can be found in #LICENSE
