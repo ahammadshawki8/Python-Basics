@@ -33,4 +33,4 @@ Youtube channels:
 8. Telusko - https://www.youtube.com/user/javaboynavin
 
 # _License_
-Details can be found in #LICENSE
+Details can be found in [LICENSE](https://github.com/ahammadshawki8/Python-Basics/blob/master/LICENSE)
