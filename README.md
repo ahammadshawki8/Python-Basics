@@ -6,7 +6,7 @@ Lots of basics topics has been covered with sufficient examples. After studying 
 After that, they can move to any separate field of programming. It can be Data Science, Software Engineering, Web Development, Game Development, System Development etc.
 
 
-# The materials in this repository were collected from:
+# _The materials in this repository were collected from:_
 
 * This MVA's video is highly recommanded:
 https://www.youtube.com/watch?v=eHxoh9Rrtdk
