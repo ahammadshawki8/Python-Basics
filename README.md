@@ -22,15 +22,14 @@ Books:
   3. Data Structures and Algorithms in Python - (Michael T. Goodrich, Roberto Tamassia, Michael H. Goldwasser)
   https://www.amazon.com/Structures-Algorithms-Python-Michael-Goodrich/dp/1118290275#:~:text=This%20all%2Dnew%20Data%20Structures,that%20is%20clear%20and%20concise.
   
-Video Tutorials:
   
-  Youtube channels:
-  
-    * Corey Schafer - https://www.youtube.com/user/schafer5 
-    * freeCodeCamp - https://www.youtube.com/channel/UC8butISFwT-Wl7EV0hUK0BQ
-    * CS Dojo - https://www.youtube.com/channel/UCxX9wt5FWQUAAz4UrysqK9A
-    * Tech with Tim - https://www.youtube.com/channel/UC4JX40jDee_tINbkjycV4Sg
-    * Sentdex - https://www.youtube.com/user/sentdex
-    * Clever Programmer - https://www.youtube.com/channel/UCqrILQNl5Ed9Dz6CGMyvMTQ
-    * Edureka - https://www.youtube.com/user/edurekaIN
-    * Telusko - https://www.youtube.com/user/javaboynavin
+Youtube channels:  
+
+1. Corey Schafer - https://www.youtube.com/user/schafer5 
+2. freeCodeCamp - https://www.youtube.com/channel/UC8butISFwT-Wl7EV0hUK0BQ
+3. CS Dojo - https://www.youtube.com/channel/UCxX9wt5FWQUAAz4UrysqK9A
+4. Tech with Tim - https://www.youtube.com/channel/UC4JX40jDee_tINbkjycV4Sg
+5. Sentdex - https://www.youtube.com/user/sentdex
+6. Clever Programmer - https://www.youtube.com/channel/UCqrILQNl5Ed9Dz6CGMyvMTQ
+7. Edureka - https://www.youtube.com/user/edurekaIN
+8. Telusko - https://www.youtube.com/user/javaboynavin
