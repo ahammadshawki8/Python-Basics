@@ -23,11 +23,11 @@ https://www.amazon.com/Structures-Algorithms-Python-Michael-Goodrich/dp/11182902
   
   
 Youtube channels: 
-1. Corey Schafer - https://www.youtube.com/user/schafer5 
-2. freeCodeCamp - https://www.youtube.com/channel/UC8butISFwT-Wl7EV0hUK0BQ
-3. CS Dojo - https://www.youtube.com/channel/UCxX9wt5FWQUAAz4UrysqK9A
-4. Tech with Tim - https://www.youtube.com/channel/UC4JX40jDee_tINbkjycV4Sg
-5. Sentdex - https://www.youtube.com/user/sentdex
-6. Clever Programmer - https://www.youtube.com/channel/UCqrILQNl5Ed9Dz6CGMyvMTQ
+1. Corey Schafer (@CoreyMSchafer) - https://www.youtube.com/user/schafer5 
+2. freeCodeCamp (@freeCodeCamp)- https://www.youtube.com/channel/UC8butISFwT-Wl7EV0hUK0BQ
+3. CS Dojo (@ykdojo)- https://www.youtube.com/channel/UCxX9wt5FWQUAAz4UrysqK9A
+4. Tech with Tim (@techwithtim)- https://www.youtube.com/channel/UC4JX40jDee_tINbkjycV4Sg
+5. Sentdex (@Sentdex)- https://www.youtube.com/user/sentdex
+6. Clever Programmer (@CleverProgrammer)- https://www.youtube.com/channel/UCqrILQNl5Ed9Dz6CGMyvMTQ
 7. Edureka - https://www.youtube.com/user/edurekaIN
 8. Telusko - https://www.youtube.com/user/javaboynavin
