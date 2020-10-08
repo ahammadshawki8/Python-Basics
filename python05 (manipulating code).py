@@ -9,7 +9,10 @@ print(message.upper()) # all letter is in upper case.
 print(message.capitalize()) # capitalize the first letter of the sentence.
 print(message.title()) # capitalize the first letter of every word in the string.
 print(message.replace("Hello","hi") )# replace the word after comma to the place of the word before comma.
-print(message.find("world")) # tells us the position of the word. 
+print(message.find("world")) # returns the index starting at the leftmost ccurance of the string, else -1
+print(message.index("world")) # simmlar to find but raise ValueError if not found 
+print(message.rfind("world")) # returns the index starting at the rightmost ccurance of the string, else -1
+print(message.rindex("world")) # simmlar to rfind but raise ValueError if not found 
 # the number which comes to the output means the characters before the word is that number.
 # we can also tell python where to start and where to end. they are going to be the 2nd and 3rd arguement.
 print(message.find("l",4,-1))
@@ -19,8 +22,19 @@ print("       dhaka        ".rstrip()) # ignore the blank space of right side.
 print("       dhaka        ".lstrip()) # ignore the blank space of left side.
 # we can also use specific character to remove by adding another arguement in those above 3 methods.
 print("kkkkkkkkkkkkkk foo kkkkkkkkkkkkkk".strip("k"))
+print(message.center(100)) # returns the string at the center of 100 spaces.
+print(message.ljust(100)) # returns the string before center of 100 spaces.
+print(message.rjust(100)) # returns the string after center of 100 spaces.
+print(message.zfill(30))  # return the string after 30 zeroes
 print(message.startswith("H")) # gives a boolean. if a string starts with the character or not.
 print(message.endswith("d")) # gives a boolean. if a string ends with the character or not.
+print("    ".isspace()) # returns True if all the characters are whitespace
+print("abcghja".isalpha()) # returns True if all the characters are alphabet
+print("THIS".isupper()) # returns True if all characters are uppercase
+print("this".islower()) # returns True if all characters are lowercase
+print("1234567890".isdigit()) # returns True if all characters of nonempty strings are 0-9
+print("gh67".isalnum()) # returns True if all the characters either alphabetic or numeric
+
 
 
 # Example-

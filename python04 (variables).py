@@ -1,4 +1,4 @@
-# Strings and Variables
+# Variables
 
 # The input function allows you to specify a massage to display and returns the value typed in by user.
 # We use a variable to remember the value entered by the user.
